@@ -7,10 +7,3 @@ void imprimeNaturais(int N) {
     printf("%d\n", N);
     imprimeNaturais(N - 1);
 }
-
-int main() {
-    int N;
-    scanf("%d", &N);
-    imprimeNaturais(N);
-    return 0;
-}
